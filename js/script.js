@@ -16,12 +16,12 @@ $('#radio1').click(function(){
     $('.valor').text(
         "$ 99.99"
     )
-    $('.valor').fadeIn(1500)
+    $('.valor').fadeIn(300)
 })
 
 $('#radio2').click(function(){
     $('.tenis').hide()
-    $('.tenis').fadeIn(800)
+    $('.tenis').fadeIn(1500)
     $('.tenis').attr({
         "src" : "./img/tenis2.png"
     })
@@ -30,7 +30,7 @@ $('#radio2').click(function(){
     $('.valor').text(
         "$ 89.99"
     )
-    $('.valor').fadeIn(800)
+    $('.valor').fadeIn(300)
 })
 
 $('#radio3').click(function(){
@@ -45,5 +45,5 @@ $('#radio3').click(function(){
         "$ 59.99"
     )
 
-    $('.valor').fadeIn(800)
+    $('.valor').fadeIn(300)
 })
