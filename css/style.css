@@ -1,0 +1,168 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+#container {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(204, 200, 204);
+}
+
+
+#expo{
+    position: absolute;
+    right: 60px;
+    bottom: 65px;
+    width: 70vw;
+    height: 85vh;
+    border-radius: 15px;
+    background-color: #fff;
+}
+
+#circle{
+    position: relative;
+    top : 100px;
+    left: 65px;
+    width: 450px;
+    height: 450px;
+    border-radius: 225px;
+    background-color: rgb(148, 121, 141);
+
+}
+
+#circle img{
+    position: relative;
+    top: 70px;
+    width: 500px;
+    transform:rotate(35deg);
+}
+
+#conteudo {
+    position: absolute;
+    right: 60px;
+    top: 100px;
+    width: 450px;
+    height: 430px;
+    text-align:justify;
+}
+
+#conteudo h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 45px;
+}
+
+#radios {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: 110px;
+    left: 230px;
+    width: 120px;
+}
+
+
+
+.tamanho {
+    width: 200px;
+    height: 100px;
+    padding: 20px;
+    margin-top: 80px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.tamanho p {
+    font-size: 18px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.logo{
+    width: 200px;
+    margin-left: 20px;
+}
+
+.msg {
+    display: flex;
+    text-align:initial;
+    padding-left: 10px;
+    max-width: 20vh;
+    font-family: fantasy;
+    font-size: 100px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+ul{
+    display: flex;
+    position: absolute;
+    right: 0px;
+    flex-direction: row;
+    list-style: none;
+    text-transform: uppercase;
+    justify-content: space-between;
+    width: 550px;
+    padding: 15px;
+    letter-spacing: 3px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+}
+.logo2 {
+    position: absolute;
+    left: -200px;
+    top: 6px;
+    width: 80px;
+}
+
+li {
+    margin-left: 10px;
+    padding: 15px;
+}
+
+li:hover {
+    border-radius: 10px;
+    background: rgb(148, 121, 141);
+}
+
+select {
+    background: #fff;
+    outline: none;
+    width: 200px;
+    height: 30px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+select:hover {
+    border: 2px solid rgb(148, 121, 141);
+}
+
+.pedido h1{
+    display: inline;
+    margin-right: 100px;
+    margin-left: 10px;
+}
+
+.pedido button {
+    position: absolute;
+    bottom: 45px;
+    width: 180px;
+    height: 45px;
+    border-radius: 10px ;
+    border: 2px solid black;
+    outline: none;
+    background: rgb(175, 170, 170);
+    color: #fff;
+    cursor: pointer;
+}
+
+button:hover{
+    background: black;
+    color: #fff;
+}
